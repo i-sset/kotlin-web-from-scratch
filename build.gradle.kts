@@ -11,6 +11,8 @@ repositories {
 }
 
 dependencies {
+    implementation("io.ktor:ktor-server-core:2.1.2")
+    implementation("io.ktor:ktor-server-netty:2.1.2")
     testImplementation(kotlin("test"))
 }
 
